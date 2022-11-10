@@ -37,7 +37,7 @@ You will find scripts to run the tests in the package.json file:
 
 ## Project structure
 
-`cypress` folder contains cypress framework 
-`cypress/e2e/pom` folder contains all selectors that are required for testing
-`cypress/e2e/test_cases` folder contains 10 Telnyx tests
-`cypress/videos` folder contains videos of the executed tests
+- `cypress` folder contains cypress framework 
+- `cypress/e2e/pom` folder contains all selectors that are required for testing
+- `cypress/e2e/test_cases` folder contains 10 Telnyx tests
+- `cypress/videos` folder contains videos of the executed tests
