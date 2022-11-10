@@ -6,7 +6,7 @@ describe('FAQs', () => {
   it('should verify if FAQs are present', () => {
     const mainpage = MainPage;
     const networkpage = NetworkPage;
-    cy.visit('https://telnyx.com/');
+    cy.visit('/');
     mainpage.cookieAcceptButton.click();
     mainpage.networkButton.click();
     let i = 0;

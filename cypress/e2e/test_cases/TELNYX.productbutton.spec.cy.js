@@ -6,7 +6,7 @@ describe('explore products button', () => {
   it('should verify all categories are present', () => {
     const mainpage = MainPage;
     const productspage = ProductsPage;
-    cy.visit('https://telnyx.com/');
+    cy.visit('/');
     mainpage.cookieAcceptButton.click();
     mainpage.exploreProductsButton.scrollIntoView();
     mainpage.exploreProductsButton.click();

@@ -12,11 +12,9 @@
 
 1. Download node.js (preferable 16.x version)
 2. Clone this repository to your local machine and open it with any IDE
-3. Enter the following commands to your terminal in the root folder:
+3. Enter the following command to your terminal in the root folder:
       ```bash
        npm install
-       npm install cypress --save-dev
-       npm install -D cypress-xpath
       ```
 
 ## Execution

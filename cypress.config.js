@@ -5,6 +5,7 @@ module.exports = defineConfig({
   viewportWidth: 1550,
   viewportHeight: 900,
   e2e: {
+    baseUrl: "https://telnyx.com/",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

@@ -6,7 +6,7 @@ describe('video on "About us"', () => {
   it('should verify if "about" page contain video', () => {
     const mainpage = MainPage;
     const aboutpage = AboutPage;
-    cy.visit('https://telnyx.com/');
+    cy.visit('/');
     mainpage.cookieAcceptButton.click();
     mainpage.aboutusButton.click();
     aboutpage.officesInfo.should('be.visible');

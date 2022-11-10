@@ -6,7 +6,7 @@ describe('sms pricing', () => {
   it('should show sms pricing', () => {
     const mainpage = MainPage;
     const pricingpage = MessagingPricingPage;
-    cy.visit('https://telnyx.com/');
+    cy.visit('/');
     mainpage.cookieAcceptButton.click();
     mainpage.smsPricingButton.click();
     pricingpage.selectCountry('Portugal');
